@@ -1,7 +1,5 @@
 function addingEventListener() {
-let input = document.getElementById('input')
-input.addEventListener('click',()=>{
-  console.log(addingEventListener);
-})
+  input.addEventListener("click", addingEventListener);
 }
-addingEventListener();
+
+let input = document.getElementById("button");
